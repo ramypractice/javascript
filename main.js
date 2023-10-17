@@ -8,5 +8,5 @@ function sayHello(name) {
   
   // Example usage:
   console.log(sayHello('John')); // Output: Hello Ali
-  console.log(sayHello('Alice')); // Output: Hello Alice
+  console.log(sayHello('Ali')); // Output: Hello Alice
   
