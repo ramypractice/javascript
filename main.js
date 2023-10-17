@@ -49,3 +49,4 @@
         setTimeout(function() {
             displayMessage(message2, 100);
         }, message1.length * 100 + 1000); // Wait for message1 to finish and then display message2
+        
