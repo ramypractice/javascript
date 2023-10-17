@@ -1,5 +1,23 @@
-*{
-    margin: 0px;
-    padding: 0px;
-    
+        /* CSS for the typing animation */
+        .typing {
+            overflow: hidden;
+            white-space: nowrap;
+            border-right: 2px solid #000;
+            font-size: 18px;
+            animation: typing 1s steps(20) infinite;
+        }
+
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+
+            to {
+                width: 100%;
+            }
+        }
+
+#conversation{
+    font-size: 22px;
+    font-weight: 600px;
 }
